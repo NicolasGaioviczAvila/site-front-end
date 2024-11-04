@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.post, .posts{
+    width: 60vw;
+    padding: 0.5vw;
+    background-color: #40659c;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+#placeAbove{
+    position: absolute;
+
+    width: 100%;
+
+}
+#placeAbove .comfirmar{
+    position: fixed;
+}
+
+.user-tag{
+    display: flex;
+    padding: 1vw;
+}
+
+
+.content, .content-comment{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.5vw;
+    margin: 2.5vw;
+    margin-top:0px;
+    border-left: 5px solid rgb(0, 10, 99);
+}
+
+.content-img, .comment-img{
+    border-radius: 25px;
+    width: 50vw;
+}
+
+ .mesage{
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5vh;
+}
+
+
+.user-img{
+    border-radius: 100px;
+    height: 4vw;
+    width: 4vw;
+   
+}
+
+.user-name{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 3vh;
+}
+
+.mgas{
+    width: 100vw;
+    display: flex;
+    justify-items: center;
+
+}
+
+.post-form{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(200, 202, 204);
+    position: relative;
+    border-radius: 10px;
+    
+  
+}
+
+.post-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: auto;
+    background-color: #001027;
+    padding: 4rem;
+}
+
+div.imgpostdiv{
+    width: max-content;
+    height: 40vh;
+    margin: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+
+
+.mensage{
+
+    background-color: white;
+    flex: 3;
+    overflow-x: auto;
+    margin: 0.5vw;
+    border-radius: 10px;
+}
+
+.display-posting{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    padding: 0.5vw;
+    align-items: center;
+}
+
+.image{
+    position: relative;
+    align-content: center;
+    margin: 0px;
+    margin-right: 1vw;
+    
+
+}
+
+input[type="file"] {
+    opacity: 0;
+    inset: 0;
+    position: absolute;
+  }
+  
+
+.comments{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-comment{
+    border: 0px;
+}
+
+.comment-img{
+    width: 40vw;
+}
+
+.likes{
+    display: flex;
+}
+
+.likes-heart{
+    height: 2vw;
+    width: 2vw;
+    border: 0px;
+}
+
+.likes{
+    margin-top: 1vh;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+}
+.likes p{
+    margin: 0;
+    margin-left: 0.5vw;
+}
+
+.containere{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.btn-comment{
+    background-color: transparent;
+    border: 0px;
+    margin-left: 1vw;
+}
+
+
+div.openComentarios{
+    overflow: hidden;
+    animation: openComentarios 1s linear;
+    
+}
+
+*{
+    resize: none;
+}
+
+@keyframes openComentarios {
+    from{height: 0px;}
+    to{height: 10px;}
+}
